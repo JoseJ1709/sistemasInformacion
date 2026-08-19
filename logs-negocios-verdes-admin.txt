@@ -1,0 +1,414 @@
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+WARNING: Module opcache ini file doesn't exist under /etc/php/8.5/mods-available
+
+ // Clearing the cache for the dev environment with debug true
+
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.
+
+
+ Installing assets as hard copies.
+
+ --- ----------------- ----------------
+      Bundle            Method / Error
+ --- ----------------- ----------------
+  ✔   EasyAdminBundle   copy
+ --- ----------------- ----------------
+
+ ! [NOTE] Some assets were installed via copy. If you make changes to these
+ !        assets you have to run this command again.
+
+ [OK] All assets were successfully installed.
+
+
+In ExceptionConverter.php line 74:
+
+  An exception occurred while executing a query: SQLSTATE[42P07]: Duplicate t
+  able: 7 ERROR:  relation "doctrine_migration_versions" already exists
+
+
+In Exception.php line 24:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+In Connection.php line 33:
+
+  SQLSTATE[42P07]: Duplicate table: 7 ERROR:  relation "doctrine_migration_ve
+  rsions" already exists
+
+
+doctrine:migrations:migrate [--write-sql [WRITE-SQL]] [--dry-run] [--query-time] [--allow-no-migration] [--all-or-nothing [ALL-OR-NOTHING]] [--no-all-or-nothing] [--configuration CONFIGURATION] [--em EM] [--conn CONN] [--] [<version>]
+
+[ec2-user@monitor ~]$
