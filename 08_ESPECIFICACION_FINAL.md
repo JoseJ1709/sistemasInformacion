@@ -8,7 +8,7 @@ Esta especificación consolida las decisiones conceptuales necesarias para const
 2. la **F-A-GTI-01 — Ficha de Caracterización**;
 3. la **G-A-GTI-01 — Guía de diligenciamiento y administración**.
 
-No deben tomarse decisiones conceptuales nuevas durante la construcción si se sigue este documento junto con `04`, `05`, `06` y `07`.
+No deben tomarse decisiones conceptuales nuevas durante la construcción si se sigue este documento junto con `04_Taxonomia_Institucional_SI.md`, `05_Modelo_Datos_Catalogo.md`, `06_Estructura_Ficha_Final.md` y `07_Estructura_Guia_Final.md`.
 
 ## 2. Decisiones conceptuales cerradas
 
@@ -230,7 +230,7 @@ Durante la construcción del material final debe preservarse esta distinción:
 | Obligación MinTIC / Gobierno Digital | Solo lo expresamente soportado por MGGTI, MAE/MRAE, MSPI, Decreto 767 y demás norma oficial citada. |
 | Recomendación MinTIC | Lo sugerido por guías o marcos oficiales sin carácter de obligación taxativa de campo. |
 | Decisión institucional propuesta | Definiciones de frontera, diseño del libro, campos exactos y reglas de clasificación cerradas en este proyecto. |
-| Buena práctica | Complementos técnicos usados cuando MinTIC no define el concepto con suficiente detalle. |
+| Buena práctica | Complementos técnicos usados cuando MinTIC no define el concepto con suficiente detalle. Incluye el uso de TIME como marco complementario, no como obligación MinTIC. |
 
 ## 11. Contradicciones resueltas frente al estado actual
 
@@ -248,8 +248,8 @@ El diseño queda **listo para construcción** cuando el agente implementador:
 1. cree el libro de 7 hojas exactamente como aquí se define;
 2. construya `Catálogo_SI` con las 44 columnas en el orden fijado;
 3. use la clase de inventario A-F para enrutar cada activo a la hoja o catálogo correcto;
-4. construya la Ficha con la estructura definida en `06`;
-5. construya la Guía con la estructura definida en `07`;
+4. construya la Ficha con la estructura definida en `06_Estructura_Ficha_Final.md`;
+5. construya la Guía con la estructura definida en `07_Estructura_Guia_Final.md`;
 6. mantenga explícita la diferencia entre obligación MinTIC y decisión institucional.
 
 ## 13. Fuentes base para construcción

@@ -39,13 +39,10 @@ La guía debe cubrir únicamente:
 
 **Debe citar al menos:**
 
-- MGGTI.LI.SI.02;
-- MGGTI.LI.SI.08;
-- MGGTI.LI.SI.09;
-- MGGTI.LI.SI.10;
-- MGGTI.LI.SI.12;
-- MAE.LI.ASI.01, .02 y .03;
-- Decreto 767 de 2022;
+- Decreto 767 de 2022 para las definiciones normativas de Sistema de Información, Servicio Tecnológico y Plataforma;
+- Resolución 1978 de 2023;
+- MGGTI.G.SI como referencia oficial del dominio de gestión de sistemas de información, aclarando cuando la numeración fina de sublineamientos requiera validación directa;
+- MAE.G.ASI y MAE.GE.ASI.01 como referencias del dominio ASI, aclarando que no debe asumirse una serie separada `MAE.LI.ASI.01-.03` sin verificación documental directa;
 - fuentes complementarias usadas para API, SaaS, microservicio, ESB, GIS y base de datos.
 
 ### Sección 3 — Taxonomía institucional y frontera del inventario
@@ -133,7 +130,7 @@ La guía debe cubrir únicamente:
 - consistencia entre Catálogo, Ficha, Integraciones y Componentes;
 - validación de vocabulario;
 - vigencia de soporte, seguridad y continuidad;
-- coherencia de TIME y TCO;
+- coherencia del modelo institucional de priorización, TIME complementario y TCO;
 - preservación del histórico.
 
 ### Sección 12 — Ejemplos mínimos de clasificación y diligenciamiento

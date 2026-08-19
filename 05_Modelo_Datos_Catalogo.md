@@ -111,8 +111,8 @@ Definir el modelo definitivo del libro Excel del **F-A-GTI-02** después de cerr
 | Tipo_de_desarrollo_adquisicion | Forma de obtención del SI. | Gestión contractual y técnica. | Institucional | Obligatorio | Responsable técnico | Lista | Propio, a la medida, COTS, open source, SaaS, híbrido, legado | Alta o cambio | Catálogo_SI |
 | Fabricante_o_proveedor_principal | Proveedor principal del producto o servicio. | Gestión contractual y soporte. | Institucional | Recomendado | Técnico / contratación | Texto | No aplica | Cambio contractual | Catálogo_SI |
 | Tipo_de_licenciamiento | Modalidad principal de licenciamiento. | Riesgo contractual y costo. | Institucional | Recomendado | Técnico / contratación | Lista | Lista controlada | Cambio contractual | Catálogo_SI |
-| Soporte_vigente_hasta | Fecha de vencimiento de soporte o mantenimiento principal. | Alertas y continuidad. | MGGTI.LI.SI.10 + institucional | Obligatorio | Técnico / contratación | Fecha | DD/MM/AAAA | Cada renovación | Catálogo_SI |
-| Estado_ANS_terceros | Estado del ANS si el soporte es tercerizado. | Control de soporte. | MGGTI.LI.SI.10 | Condicional | Técnico / contratación | Lista | Vigente, Vencido, No aplica, En negociación | Cambio contractual | Catálogo_SI |
+| Soporte_vigente_hasta | Fecha de vencimiento de soporte o mantenimiento principal. | Alertas y continuidad. | Institucional, alineada con MGGTI.G.SI y gestión contractual | Obligatorio | Técnico / contratación | Fecha | DD/MM/AAAA | Cada renovación | Catálogo_SI |
+| Estado_ANS_terceros | Estado del ANS si el soporte es tercerizado. | Control de soporte. | Institucional, alineada con MGGTI.G.SI y gestión contractual | Condicional | Técnico / contratación | Lista | Vigente, Vencido, No aplica, En negociación | Cambio contractual | Catálogo_SI |
 | Marco_legal_mandatorio | Norma principal que obliga o condiciona el SI. | Decisiones de permanencia y cumplimiento. | Institucional apoyada en marco legal | Recomendado | Responsable funcional | Texto corto | No aplica | Cambio normativo | Catálogo_SI |
 | Objetivos_estrategicos_que_apoya | Objetivos institucionales o sectoriales soportados. | Priorización TIME y valor. | Institucional | Recomendado | Responsable funcional | Texto / lista | PEI/planeación vigente | Revisión anual | Catálogo_SI |
 | Criticidad_operacional | Impacto por indisponibilidad del SI. | Priorización y continuidad. | Institucional / MSPI | Obligatorio | Responsable funcional + técnico | Lista | Alta, Media, Baja | Revisión anual o incidente relevante | Catálogo_SI |
@@ -121,17 +121,17 @@ Definir el modelo definitivo del libro Excel del **F-A-GTI-02** después de cerr
 | Clasificacion_de_la_informacion | Nivel de clasificación de la información tratada. | Cumplimiento y riesgo. | Ley 1712 + institucional | Obligatorio | Responsable funcional | Lista | Pública, Uso interno, Reservada, Clasificada | Cambio de tratamiento | Catálogo_SI |
 | Manejo_de_datos_personales | Indica si el SI trata datos personales y en qué rol. | Cumplimiento y privacidad. | Ley 1581/Decreto 1074 + institucional | Obligatorio | Responsable funcional | Lista | Sí-responsable, Sí-encargado, No | Cambio de tratamiento | Catálogo_SI |
 | Interopera_con_entidades_externas | Indica si hay interoperabilidad con terceros externos. | Riesgo e integración externa. | Institucional | Obligatorio | Responsable técnico | Lista | Sí / No | Alta o cambio de integración | Catálogo_SI |
-| Numero_integraciones_activas | Conteo de integraciones/interfaces vigentes asociadas al SI. | Complejidad y trazabilidad. | Calculado | Obligatorio | Calculado desde hoja integraciones | Número entero | `>=0` | Automático | Catálogo_SI |
-| Numero_componentes_registrados | Conteo de componentes registrados para el SI. | Complejidad tecnológica. | Calculado | Obligatorio | Calculado desde hoja componentes | Número entero | `>=0` | Automático | Catálogo_SI |
+| Numero_integraciones_activas | Conteo de integraciones/interfaces vigentes asociadas al SI. | Complejidad y trazabilidad. | Calculado | Automático | Calculado desde hoja integraciones | Número entero | `>=0` | Automático | Catálogo_SI |
+| Numero_componentes_registrados | Conteo de componentes registrados para el SI. | Complejidad tecnológica. | Calculado | Automático | Calculado desde hoja componentes | Número entero | `>=0` | Automático | Catálogo_SI |
 | Valoracion_de_seguridad | Vigencia de valoración MSPI/seguridad. | Gobierno de seguridad. | MSPI / institucional | Obligatorio | Responsable técnico / seguridad | Lista | Vigente, Desactualizada, No realizada | Revisión anual o incidente | Catálogo_SI |
 | Nivel_de_riesgo_residual | Riesgo residual más reciente del SI. | Priorización y tratamiento. | MSPI / institucional | Recomendado | Seguridad / técnico | Lista | Alto, Medio, Bajo, No evaluado | Revisión anual | Catálogo_SI |
 | Backup_definido | Indica si existe respaldo definido. | Continuidad. | Institucional / continuidad | Obligatorio | Responsable técnico | Lista | Sí, No, Desconocido | Revisión anual | Catálogo_SI |
 | Plan_de_continuidad | Estado del plan de continuidad/contingencia. | Continuidad y auditoría. | Institucional / MSPI | Recomendado | Responsable técnico | Lista | Vigente, Desactualizado, No existe | Revisión anual | Catálogo_SI |
-| Estado_documentacion_minima | Resultado agregado del estado de documentación mínima exigible. | Riesgo operativo y de conocimiento. | MGGTI.LI.SI.08 + calculado | Obligatorio | Calculado desde Ficha/Calidad | Lista | Completa, Parcial, Crítica, No evaluada | Revisión anual | Catálogo_SI |
-| Clasificacion_TIME | Clasificación estratégica final del SI. | Decisión de portafolio. | MGGTI.G.SI + institucional | Obligatorio | OTIC / comité | Lista | I, T, M, E | Revisión anual o evento disparador | Catálogo_SI |
+| Estado_documentacion_minima | Resultado agregado del estado de documentación mínima exigible. | Riesgo operativo y de conocimiento. | MGGTI.G.SI + calculado institucional | Obligatorio | Calculado desde Ficha/Calidad | Lista | Completa, Parcial, Crítica, No evaluada | Revisión anual | Catálogo_SI |
+| Clasificacion_TIME | Clasificación estratégica final del SI. | Decisión de portafolio. | Decisión institucional apoyada en marco complementario tipo TIME; no obligación expresa MinTIC | Obligatorio | OTIC / comité | Lista | T, I, M, E | Revisión anual o evento disparador | Catálogo_SI |
 | Tipo_intervencion_recomendada | Acción principal sugerida. | Gestión de plan de acción. | Institucional | Obligatorio | OTIC | Texto corto / lista | Modernizar, migrar, retirar, sostener, optimizar | Revisión anual | Catálogo_SI |
 | Prioridad_intervencion | Nivel de prioridad resultante. | Secuenciación del plan de mantenimiento/modernización. | Institucional / calculado | Obligatorio | OTIC | Lista | Alta, Media, Baja | Revisión anual | Catálogo_SI |
-| TCO_anual_total_COP | Estimado o valor anual consolidado del TCO. | Comparación y decisión. | MGGTI.LI.SI.09 + institucional | Recomendado | Financiero / técnico | Número moneda | `>=0` | Revisión anual presupuestal | Catálogo_SI |
+| TCO_anual_total_COP | Estimado o valor anual consolidado del TCO. | Comparación y decisión. | Decisión institucional de gestión del portafolio | Recomendado | Financiero / técnico | Número moneda | `>=0` | Revisión anual presupuestal | Catálogo_SI |
 | Ratio_TCO_por_usuario_COP | TCO total dividido por usuarios activos. | Comparación relativa. | Calculado | Recomendado | Calculado | Número moneda | `>=0` | Automático | Catálogo_SI |
 | Ultima_revision_anual | Fecha de última revisión integral del SI. | Control de vigencia. | Institucional | Obligatorio | OTIC | Fecha | DD/MM/AAAA | Revisión anual | Catálogo_SI |
 | Proxima_revision_programada | Fecha programada de la próxima revisión. | Planeación y alertas. | Institucional | Recomendado | OTIC | Fecha | DD/MM/AAAA | Cada revisión | Catálogo_SI |
@@ -171,11 +171,11 @@ Definir el modelo definitivo del libro Excel del **F-A-GTI-02** después de cerr
 | 2 | ID_SI_Padre |
 | 3 | Nombre_Componente |
 | 4 | Tipo_de_Componente |
-| 5 | Función |
+| 5 | Funcion |
 | 6 | Compartido_con_otro_SI |
 | 7 | Estado |
 | 8 | Version |
-| 9 | Modelo_de_Despliegue |
+| 9 | Modelo_de_despliegue |
 | 10 | Tecnologia_principal |
 | 11 | Base_de_datos_asociada |
 | 12 | Proveedor_o_Fabricante |
@@ -240,6 +240,8 @@ Debe incluir:
 - observaciones de migración desde el inventario actual.
 
 ## 7. Auditoría de las 99 columnas actuales
+
+> **Nota de interpretación:** la decisión `MOVER_A_OTRO_ARTEFACTO` se usa únicamente para indicar que el campo sale del `Catálogo_SI` y pasa a una vista operativa distinta del libro; en la columna “Ubicación definitiva” se precisa el destino concreto, por ejemplo `Calidad`.
 
 | Col. | Campo actual | Decisión | Ubicación definitiva | Justificación resumida |
 | --- | --- | --- | --- | --- |
@@ -333,7 +335,7 @@ Debe incluir:
 | CJ | Doc - Plan de mantenimiento | MOVER_A_FICHA | Ficha | Ídem anterior. |
 | CK | Fecha de cargue al catálogo | MOVER_A_OTRO_ARTEFACTO | Calidad | Trazabilidad operativa del libro. |
 | CL | Versión de la Ficha origen | MOVER_A_OTRO_ARTEFACTO | Calidad | Dato de control documental, no del SI. |
-| CM | Última revisión anual | MANTENER | Catálogo_SI | Sirve para vigencia y alertas. |
+| CM | Última revisión anual | MANTENER | Catálogo_SI → Ultima_revision_anual | Sirve para vigencia y alertas. |
 | CN | Observaciones | MOVER_A_OTRO_ARTEFACTO | Calidad / Ficha | Las observaciones generales deben quedar donde se gestionan. |
 | CO | Vigencia del registro | MANTENER | Catálogo_SI | Preserva histórico sin borrar. |
 | CP | Prioridad de diligenciamiento asignada | MOVER_A_OTRO_ARTEFACTO | Calidad | Gestiona cierre documental, no portafolio. |
@@ -346,3 +348,5 @@ Debe incluir:
 ## 8. Resultado de la Fase 2
 
 Se cierra que el futuro F-A-GTI-02 debe ser un libro de **7 hojas** con un **Catálogo_SI de 44 columnas** y dos hojas normalizadas de apoyo (`Integraciones_Interfaces` y `Componentes`).
+
+La auditoría cubre **las 99 columnas A:CU sin faltantes**; en el archivo fuente actual `CJ` es efectivamente el último campo del bloque de documentación y `CK` inicia el bloque de auditoría.

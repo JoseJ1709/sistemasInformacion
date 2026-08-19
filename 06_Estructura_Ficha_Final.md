@@ -45,7 +45,7 @@ La **Ficha F-A-GTI-01** es el expediente técnico-funcional completo de cada **S
 - Descripcion_breve
 - Objetivo funcional del SI
 - Alcance funcional
-- Dependencia_dueña_del_proceso
+- Dependencia_duena_del_proceso
 - Procesos_institucionales_soportados
 - Marco_legal_mandatorio
 - Objetivos_estrategicos_que_apoya
@@ -278,8 +278,22 @@ La **Ficha F-A-GTI-01** es el expediente técnico-funcional completo de cada **S
 
 Todos los 44 campos de `Catálogo_SI` deben existir en la Ficha, ya sea como:
 
-- campo visible en secciones 1–10; o
+- campo visible en secciones 1–12; o
 - dato calculado o resumido incorporado en la portada / secciones de síntesis.
+
+#### Trazabilidad mínima de los 44 campos del catálogo en la Ficha
+
+| Sección de la Ficha | Campos del catálogo que deben verse o resumirse allí |
+| --- | --- |
+| Sección 1 — Identificación general del SI | ID_SI, Nombre_oficial, Sigla_Acronimo, Tipo_o_patron_de_SI, Categoria_institucional, Descripcion_breve, Procesos_institucionales_soportados, Dependencia_duena_del_proceso, Marco_legal_mandatorio, Objetivos_estrategicos_que_apoya, Estado_del_SI, Vigencia_del_registro |
+| Sección 2 — Gobierno y responsables | Area_responsable_funcional, Responsable_funcional, Area_responsable_tecnica, Responsable_tecnico |
+| Sección 5 — Integraciones e interfaces | Interopera_con_entidades_externas, Numero_integraciones_activas |
+| Sección 6 — Arquitectura tecnológica y despliegue | Version_actual, Modelo_de_despliegue, Tipo_de_desarrollo_adquisicion, Fabricante_o_proveedor_principal, Tipo_de_licenciamiento, Numero_componentes_registrados |
+| Sección 7 — Ciclo de vida, soporte y operación | Fecha_salida_produccion, Soporte_vigente_hasta, Estado_ANS_terceros, Ultima_revision_anual, Proxima_revision_programada |
+| Sección 8 — Seguridad, privacidad y continuidad | Clasificacion_de_la_informacion, Manejo_de_datos_personales, Valoracion_de_seguridad, Nivel_de_riesgo_residual, Backup_definido, Plan_de_continuidad |
+| Sección 9 — Calidad, valor y análisis estratégico | Criticidad_operacional, Usuarios_activos, Cobertura_del_proceso, Clasificacion_TIME, Tipo_intervencion_recomendada, Prioridad_intervencion |
+| Sección 10 — Dimensión económica y mantenimiento | TCO_anual_total_COP, Ratio_TCO_por_usuario_COP |
+| Sección 11 — Estado de documentación y evidencias | Estado_documentacion_minima |
 
 ### 4.2 Información que debe vivir en la Ficha y no en el Catálogo
 
